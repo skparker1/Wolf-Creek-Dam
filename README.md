@@ -151,7 +151,7 @@
     <section>
       <!-- 💡💡💡 Cesium map: paste embed code below -->
       <iframe
-        title="Kentucky Capitol"
+        title="Wolf Creek Dam"
         width="100%"
         height="900"
         src="https://ion.cesium.com/stories/viewer/?id=33c7b84a-8444-414b-817d-6b4a7be1c8dd"
@@ -198,7 +198,7 @@
           <img src="map1.jpg" alt="Something about this map" width="100%" />
           <p class="caption"><a href="hi-res1.pdf">A map of Wolf Creek Dam</a></p>
           <img src="map2.jpg" alt="Something about this map" width="100%" />
-          <p class="caption">Caption for map2</p>
+          <p class="caption"><a href="hi-res2.pdf">A map of The Tree Health Around Wolf Creek Dam</a></p>
         </div>
       </div>
     </section>
