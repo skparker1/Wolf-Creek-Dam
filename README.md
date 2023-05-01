@@ -20,7 +20,6 @@
         margin: 0;
         padding: 0;
       }
-
       /* Define styles on body (and all descendants) */
       body {
         margin: 0;
@@ -30,7 +29,6 @@
         color: rgb(32, 32, 32);
         background-color: rgb(236, 232, 228);
       }
-
       /* Define styles for the headings */
       h1 {
         font-size: 3rem;
@@ -39,20 +37,17 @@
         padding: 0;
         color: rgb(0, 0, 0);
       }
-
       h2 {
         font-size: 2rem;
         font-weight: 800;
         margin: 0;
         padding: 0;
       }
-
       h3 {
         font-size: 1.5rem;
         font-weight: bold;
         margin-bottom: 10px;
       }
-
       /* Define styles for the paragraph */
       p {
         font-size: 1.3rem;
@@ -60,34 +55,28 @@
         margin: 0 0 10px 0;
         padding: 0;
       }
-
       a:link,
       a:visited {
         color: rgb(12, 73, 34);
       }
-
       a:hover {
         color: rgb(86, 86, 86);
         text-decoration: none;
       }
-
       section {
         width: 80%;
         margin: 0 auto;
       }
-
       footer {
         width: 80%;
         margin: 0 auto;
         color: rgb(100, 100, 100);
       }
-
       iframe {
         border: 1px solid rgb(200, 200, 200);
         border-radius: 10px;
         margin-top: 20px;
       }
-
       .caption {
         font-size: 0.8rem;
         font-weight: 400;
@@ -96,26 +85,22 @@
         padding: 0;
         color: rgb(100, 100, 100);
       }
-
       .title {
         text-align: left;
         margin: 20px;
       }
-
       /* Set up a container for the two columns */
       .container {
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
       }
-
       /* Define styles for the left column */
       .left-column {
         flex-basis: 40%;
         padding: 20px;
         margin-bottom: 20px;
       }
-
       /* Define styles for the right column */
       .right-column {
         flex-basis: 55%;
@@ -124,12 +109,10 @@
         padding: 20px;
         margin-bottom: 20px;
       }
-
       /* Round image corners for images inside the right-column */
       .right-column img {
         border-radius: 10px;
       }
-
       /* Media query for small screens */
       /* For screens up to 768px, apply these rules. */
       @media (max-width: 768px) {
@@ -137,7 +120,6 @@
         .container {
           flex-direction: column;
         }
-
         /* Set full width for both columns */
         .left-column,
         .right-column {
@@ -174,20 +156,17 @@
             Two sentences about your area/theme of interest (e.g., when was it
             established, created, where is it, what is unique about, etc.)
           </p>
-
           <p>
             Two sentences about the goals of the project (e.g., The goal of this
             project is to measure and visualize the historic entrance to Mammoth
             Cave).
           </p>
-
           <p>
             Visualizations created from lidar data provided by
             <a href="https://kyfromabove.ky.gov/">KyFromAbove</a> in ArcGIS Pro
             and Blender. Additional sources of information from
             <a href="https://...">name of source</a>, April, 2023.
           </p>
-
           <p>
             Page and visualizations created by B for GEO 409, Department of
             Geography, University of Kentucky. Spring 2023.
